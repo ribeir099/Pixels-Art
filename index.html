@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/pixel-2.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Pixel Art</title>
+</head>
+
+<body>
+  <header>
+    <div id="header-content">
+      <h1 id="title">Pixel Art</h1>
+      <h2 id="sub-title">Paleta de Cores</h2>
+    </div>
+  </header>
+  <main>
+    <section id="conteudo">
+      <div id="content-container">
+        <div id="color-palette">
+          <div class="color selected"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div id="entries">
+          <input type="number" id="board-size" min="1" max="50">
+          <button id="generate-board">Gerar</button>
+          <button id="clear-board">Limpar</button>
+          <input type="color" name="color" id="color-input">
+          <input type="button" value="Mudar Cor" id="change-color">
+        </div>
+      </div>
+      <div id="board">
+        <div id="pixel-board">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
