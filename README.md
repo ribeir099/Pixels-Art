@@ -1,4 +1,4 @@
-# Trybe-Project-03-Pixels-Art
+# Trybe-Project-Pixels-Art
 
 Project developed in the web fundamentals module at trybe
 
